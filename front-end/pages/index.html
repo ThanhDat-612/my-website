@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shop Demo</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+
+<!-- Header -->
+<header class="bg-white shadow sticky top-0 z-50">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<h1 class="text-2xl font-bold text-indigo-600">MyShop</h1>
+<nav class="space-x-6">
+<a href="#" class="hover:text-indigo-600">Trang chủ</a>
+<a href="#" class="hover:text-indigo-600">Sản phẩm</a>
+<a href="#" class="hover:text-indigo-600">Liên hệ</a>
+<button class="bg-indigo-600 text-white px-4 py-2 rounded-xl hover:bg-indigo-700">Giỏ hàng</button>
+</nav>
+</div>
+</header>
+
+
+<!-- Hero -->
+<section class="bg-indigo-600 text-white">
+<div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+<div>
+<h2 class="text-4xl font-bold mb-4">Mua sắm thông minh ✨</h2>
+<p class="mb-6 text-lg">Sản phẩm chất lượng – Giá cả hợp lý – Giao hàng nhanh</p>
+<button class="bg-white text-indigo-600 px-6 py-3 rounded-2xl font-semibold hover:bg-gray-100">Xem sản phẩm</button>
+</div>
+<img src="/front-end/assets/pictures/hysilen.jpg" class="rounded-3xl shadow-lg" />
+</div>
+</section>
+
+
+<!-- Products -->
+<section class="max-w-7xl mx-auto px-6 py-16">
+<h3 class="text-3xl font-bold mb-10 text-center">Sản phẩm nổi bật</h3>
+<div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+<!-- Card -->
+<div class="bg-white rounded-2xl shadow hover:shadow-lg transition">
+<img src="/front-end/assets/pictures/keqing1.jpg" class="rounded-t-2xl" />
+<div class="p-4">
+<h4 class="font-semibold text-lg">Tai nghe Bluetooth</h4>
+<p class="text-gray-500 text-sm">Âm thanh chất lượng cao</p>
+<div class="flex justify-between items-center mt-4">
+<span class="font-bold text-indigo-600">499.000đ</span>
+<button class="bg-indigo-600 text-white px-3 py-1 rounded-xl text-sm">Mua</button>
+</div>
+</div>
+</div>
+
+
+<div class="bg-white rounded-2xl shadow hover:shadow-lg transition">
+<img src="/front-end/assets/pictures/keqing2.jpg" class="rounded-t-2xl" />
+<div class="p-4">
+<h4 class="font-semibold text-lg">Điện thoại</h4>
+<p class="text-gray-500 text-sm">Hiệu năng mạnh mẽ</p>
+<div class="flex justify-between items-center mt-4">
+<span class="font-bold text-indigo-600">6.990.000đ</span>
+<button class="bg-indigo-600 text-white px-3 py-1 rounded-xl text-sm">Mua</button>
+</div>
+</div>
+</div>
+
+
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-300">
+<div class="max-w-7xl mx-auto px-6 py-10 text-center">
+<p>© 2026 MyShop. All rights reserved.</p>
+</div>
+</footer>
+
+
+</body>
+</html>
