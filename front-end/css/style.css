@@ -1,0 +1,26 @@
+body {
+    /* ví dụ: đổi font toàn trang */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    
+}
+
+/* Custom header */
+header {
+    border-bottom: 1px solid #490568;
+
+}
+
+/* Custom footer */
+footer {
+    border-top: 1px solid #0f41a5;
+}
+.header {
+    
+    background-color: #06b6d4; /* cyan */
+    color: white;
+}
+
+.footer {
+    background-color: #000000; /* đen */
+    color: white;
+}
